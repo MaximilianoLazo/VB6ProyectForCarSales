@@ -1,0 +1,157 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Usuarios\User\Desktop\Consecionaria\InstaladorConcesionariaAPP
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\Windows\SysWOW64\msderun.dll=
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+D:\Usuarios\User\Desktop\Consecionaria\ConcesionariaAPP.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6ES.DLL=Yes
+C:\Windows\SysWOW64\COMCTL32.OCX=Yes
+C:\Windows\SysWOW64\CMCTLES.DLL=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=Yes
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Windows\SysWOW64\CMDLGES.DLL=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Windows\SysWOW64\STDFTES.DLL=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Windows\SysWOW64\DATGDES.DLL=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\ADODCES.DLL=Yes
+C:\Windows\SysWOW64\MSCOMCT2.OCX=Yes
+C:\Windows\SysWOW64\MSCC2ES.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPTR.DLL=Yes
+C:\Windows\SysWOW64\DBRPRES.DLL=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Windows\System32\MSRDO20.DLL=Yes
+C:\Windows\System32\RDOCURS.DLL=Yes
+C:\Windows\System32\RDO20ES.DLL=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\msderun.dll=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+D:\Usuarios\User\Desktop\Consecionaria\ConcesionariaAPP.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6ES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\COMCTL32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\CMCTLES.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\system\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\CMDLGES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\STDFTES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\DATGDES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\ADODCES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSCOMCT2.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSCC2ES.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\msderun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\DBRPRES.DLL=$(WinSysPath)
+D:\Programas\visualbasic6.0\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Programas\visualbasic6.0\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Programas\visualbasic6.0\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Windows\System32\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\System32\RDOCURS.DLL=$(WinSysPath)
+C:\Windows\System32\RDO20ES.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\msderun.dll=$(CommonFiles)\designer
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+D:\Usuarios\User\Desktop\Consecionaria\ConcesionariaAPP.exe=Yes
+D:\Programas\visualbasic6.0\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=MiPrimerProyecto
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=D:\Usuarios\User\Desktop\Consecionaria\InstaladorConcesionariaAPP
+ProjectFolder=D:\Usuarios\User\Desktop\Consecionaria
+ServerSideCab=
+File1=D:\Usuarios\User\Desktop\Consecionaria\InstaladorConcesionariaAPP\setup.exe
+File2=D:\Usuarios\User\Desktop\Consecionaria\InstaladorConcesionariaAPP\Setup.Lst
+File3=D:\Usuarios\User\Desktop\Consecionaria\InstaladorConcesionariaAPP\ConcesionariaAPP.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=MiPrimerProyecto
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|MiPrimerProyecto]
+Icon1=ConcesionariaAPP.exe
+Title1=MiPrimerProyecto
+StartIn1=$(AppPath)
+Key1=Icon1
